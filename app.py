@@ -63,7 +63,7 @@ def bug_report():
             resp.redirect('/greeting')
         elif choice == '3':
             resp.say('Wait for it', voice='man')
-            resp.play(f'http://4ca834e83bad.ngrok.io{rick_roll}')
+            resp.play('https://demo.twilio.com/docs/classic.mp3')
             resp.redirect('/greeting')
 
     resp.redirect('/greeting')
